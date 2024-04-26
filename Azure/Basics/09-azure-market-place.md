@@ -21,6 +21,6 @@ classDef blue fill:#0073e6,stroke:#0073e6
 classDef orange fill:#c44601,stroke:#c44601
 classDef green fill:#047e36,stroke:#047e36
 classDef purple fill:#7c307f,stroke:#7c307f
-classDef bg fill:#092941,stroke:#092941
+classDef bg fill:#101b27,stroke:#101b27
 class Background bg
 ```
