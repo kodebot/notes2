@@ -21,7 +21,18 @@ subgraph SA["Storage Account (like namespace)"]
     end
 end
 classDef transparent stroke-width:0,fill:transparent
+classDef blue fill:#0073e6
+classDef orange fill:#c44601
+classDef green fill:#047e36
+classDef purple fill:#7c307f
+classDef bg fill:#092941
+class SA bg
+
 class row1,row2 transparent
+class BC blue
+class FS green
+class QS orange
+class TS purple
 ```
 
 * following are configured at this level
