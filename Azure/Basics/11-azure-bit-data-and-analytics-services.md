@@ -102,6 +102,7 @@ class Background bg
 
 ## Azure Databricks
 
+* big data collaboration PaaS
 * very similar to Azure HDInsight but cluster is only for Apache Spark
 * data transformation at large scale
 * allows collaboration among users using
