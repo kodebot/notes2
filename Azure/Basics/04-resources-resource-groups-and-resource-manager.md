@@ -34,3 +34,4 @@
 
 * Centralised management layer for all resources and resource groups
 * Any resource management clients like CLI, powershell, portal - all goes thorough this
+* validation, etc.. happens here

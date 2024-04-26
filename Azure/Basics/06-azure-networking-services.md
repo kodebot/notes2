@@ -31,10 +31,18 @@ flowchart TB
                 VM1["VM1"]
             end
             subgraph Subnet2["Subnet"]
-                VM2["VM2"]
+                direction TB
+                NI["Network Interface"]
+                subgraph NIGroup[" "]
+                  VM2["VM2"]
+                  NSG["NSG"]
+                  PI["Public IP"]
+                end
             end
         end
     end
+
+NI-->NIGroup
 ```
 
 ## Load Balancer
