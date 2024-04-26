@@ -15,11 +15,14 @@ For Structured and Semi-structured data
   * Gremlin (Graph)
   * Table Storage (useful when migrating from TableStorage to Cosmos)
 
+* **Terminology**
+  * SQL server (with small s in sever) is like container for one or more SQL based databases - think of it like a public entry point you connect to
+
+  * SQL Server - (with a S in server) - is a software we install in servers for host SQL Server database
 
 ## Azure SQL
 
 * family for products with similar offering
-
 
 ```mermaid
 flowchart TB
@@ -31,8 +34,8 @@ flowchart TB
     end
     subgraph row2[" "]
         SQLVM[("SQL in VM")]
-        MYSQL[("SQL for MySQL")]
-        PG[("SQL for Postgres")]
+        MYSQL[("Database for MySQL")]
+        PG[("Database for Postgres")]
     end
     end
 classDef transparent stroke-width:0,fill:transparent
@@ -45,7 +48,7 @@ class Background bg
 class row1,row2 transparent
 ```
 
-## Azure SQL Database
+### Azure SQL Database
 
 * cloud version of Sql Server
 * relational PaaS (DaaS)
@@ -68,10 +71,10 @@ classDef bg fill:#101b27,stroke:#101b27
 class Background bg
 ```
 
-## Managed Instance
+### Managed Instance
 
 * full features and fully managed
 
-## SQL Datawarehouse
+### SQL Datawarehouse
 
 * for big data scenarios
