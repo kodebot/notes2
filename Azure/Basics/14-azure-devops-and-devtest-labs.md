@@ -24,7 +24,9 @@ class Background bg
 
 ## Azure DevTest Labs
 
-* for devs and testers to quickly provision VM for dev/testing
+* for devs and testers to quickly provision sandbox VM for dev/testing
 * software can be pre-installed
 * admin can define policies for what can and cannot be configured (cpu, disk, os, quotas) or installed (vscode, oracle)
+* can create custom image (just VHD image)
+* can create formula (VHD + preconfigured settings like VM Size, VNET, etc..)
 * can define auto scheduling (auto shutdown) policies
