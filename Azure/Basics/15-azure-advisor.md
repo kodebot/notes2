@@ -1,7 +1,7 @@
 # Azure Advisor
 
 * think of it as personalised consultant
-* service that continuously scans resources and provides recommendation in the following areas
+* service that continuously scans resources and provides actionable recommendation in the following areas
   * cost
   * security
   * reliability
