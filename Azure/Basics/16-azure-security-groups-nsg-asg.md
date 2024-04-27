@@ -43,3 +43,9 @@ action --> allow & deny
 
 * by default intra-subnet traffic is also subject to NSG rules
   * use `IP Flow Verify` in Azure Network Watcher to see if comms is allowed/denied
+
+## Application Security Group (ASG)
+
+* Allows grouping set of resources (like VMs) so NSG can be apply to the whole group instead of specifying each resources (VMs) with their static ips
+
+* reduces effort to maintain NSG as we don't need to track/update static ips whenever VM is added/removed
