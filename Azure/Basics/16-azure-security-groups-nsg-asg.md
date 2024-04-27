@@ -8,23 +8,32 @@
 * rules have
 
 ```mermaid
-mindmap
-:root("rules")
-  source
-    any
-    ip
-    service-tag
-    asg
-  source-port
-  destination
-    same-as-source
-  destination-port
-  action
+flowchart LR
+    rules
+    source
+    source-port
+    destination
+    destination-port
+    action
     allow
     deny
-  priority
+    priority
+
+    subgraph srcdst[" "]
+        direction LR
+        any
+        ip
+        service-tag
+        asg
+    end
+
+rules-->source & destination & source-port & destination-port & priority & action
+source & destination --> srcdst
+action --> allow & deny
 ```
 
+* service tag
+  * group of ip prefixes from a give Azure services
 * apply to subnet or network interface (of VM)
 
 ```mermaid
