@@ -22,7 +22,6 @@
   * reasoning `if it is a bank holiday then the weather is bad` (P $\rightarrow$ Q), `it is a bank holiday` ($P$) $\rightsquigarrow$ `so the weather is bad`
   * the above can expressed just using symbols as well $P \rightarrow Q$, $P$ $\rightsquigarrow Q$
 
-
 ### What is knowledge?
 
 1. Things that can be known
